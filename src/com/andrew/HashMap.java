@@ -80,7 +80,6 @@ public class HashMap<K, V> {
                     prev.setNext(current.getNext());
                 } else {
                     buckets[bucketIndex] = current.getNext();
-                    return;
                 }
                 size--;
                 return;
